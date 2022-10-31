@@ -1,4 +1,5 @@
 import { Itodos } from "../../interfaces & types/todos";
+import React from "react";
 
 export const TodosFooter = ({
   todos,

@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React from "react";
 import { Itodo, Itodos } from "../../interfaces & types/todos";
 
 export const TodosList = ({
@@ -13,11 +13,6 @@ export const TodosList = ({
     evt.currentTarget.checked = el.completed;
     setTodo([...todos]);
   };
-
-  useEffect(() => {
-    console.log(todos);
-  }, [todos]);
-
   return (
     <section className="todos__list">
       {todos.map((el) => {
