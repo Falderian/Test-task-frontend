@@ -6,6 +6,7 @@ export const TodosForm =  ({todos, setTodo}: {todos: Itodos, setTodo: React.Disp
   const handleSubmit = (evt: React.FormEvent) => {
     evt.preventDefault();
     const todo: Itodo = {
+      id: todos.length,
       name: nameInput.current!.value,
       completed: false,
     };

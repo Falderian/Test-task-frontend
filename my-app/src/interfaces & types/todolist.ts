@@ -2,5 +2,7 @@ import { Itodos } from "./todos";
 
 export interface Itodoslist {
   todos: Itodos;
-  toggleTodo: (id: string) => void;
+  setTodo: React.Dispatch<React.SetStateAction<Itodos>>;
+  setActiveTodo: React.Dispatch<React.SetStateAction<Itodos>>;
+  setCompleteTodo: React.Dispatch<React.SetStateAction<Itodos>>;
 }

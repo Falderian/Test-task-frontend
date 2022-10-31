@@ -16,7 +16,7 @@ function App() {
           What needs to be done?
         </section>
         <TodosForm setTodo={setTodo} todos={todos}/>
-        <TodosList setTodo={setTodo} todos={todos}/>
+        <TodosList setTodo={setTodo} todos={todos} />
         <TodosFooter setTodo={setTodo} todos={todos}/>
       </section>
     </div>

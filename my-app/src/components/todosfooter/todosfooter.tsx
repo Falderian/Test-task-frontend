@@ -66,7 +66,7 @@ export const TodosFooter = ({
     <section className="todos__footer">
       <span className="todos__incomplted-todos">{activeItems} items left</span>
       <section className="todos__btns">
-        <button className="all_btn" onClick={showAllItems}>
+        <button className="all_btn active-btn" onClick={showAllItems}>
           All
         </button>
         <button className="active_btn" onClick={showOnlyActiveItems}>
