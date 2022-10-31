@@ -1,0 +1,101 @@
+#root {
+  height: 90vh;
+}
+.wrapper {
+  padding: 10% 20%;
+  background-color: darkgray;
+  height: 100%;
+}
+
+.wrapper h1 {
+  text-align: center;
+  color: wheat;
+  font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+}
+
+.todos {
+  background-color: white;
+  border: 0.5px solid black;
+}
+
+.todos__header {
+  background-color: white;
+  border-bottom: 0.5px solid black;
+  color: lightgray;
+  padding: 2%;
+}
+
+.todos__form {
+  padding: 10px;
+  border-bottom: 0.5px solid black;
+  border-top: 0.5px solid black;
+  gap: 5px;
+  display: flex;
+}
+
+.todos__submit-btn {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.todos__submit-btn:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.todos__list {
+  border-bottom: 0.5px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.todos__item {
+  border-top: 0.5px solid black;
+  padding: 5px;
+}
+
+.todos__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 0.5px solid black;
+  gap: 5%;
+  padding: 5px;
+}
+
+.todos__btns {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 0px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.active-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid lightpink;
+  border-radius: 5px; /* Green */
+}
+
+.active-btn:hover {
+  background-color: lightgray; /* Green */
+  color: white;
+}
+
+.nonactive {
+  display: none;
+}

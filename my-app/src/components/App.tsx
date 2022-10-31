@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Itodos } from '../interfaces & types/todos';
-import '../App.css';
+import './App.css';
 import { TodosList } from './todolist/todolist';
 import { TodosForm } from './todosform/todosform';
 import { TodosFooter } from './todosfooter/todosfooter';
